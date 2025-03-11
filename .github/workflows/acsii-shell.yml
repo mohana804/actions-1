@@ -14,4 +14,6 @@ jobs:
         run: ls -ltra 
 
       - name: Executing Shell script
-        run: ./acsii-script.sh
+        run: |
+             chmod +x acsii-script.sh    
+             ./acsii-script.sh
