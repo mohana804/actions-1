@@ -1,1 +1,1 @@
-# actions-1
+# actions-1 To create an EC2 instance using Terraform and automate the deployment using GitHub Actions
