@@ -9,13 +9,10 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: Welcome Message
-          run: echo " Myfirst action"
+        - name: Read files
+          run: |
+               echo " Myfirst action"
                ls -ltra
                cat README.md
 
-        - name: List files
-          run: ls
-
-        - name: Read file
-          run: cat README.md  
+      
